@@ -62,7 +62,7 @@ namespace RailwayTicketApp
 
         private void OpenForm(Form form)
         {
-            // ✅ Тепер це MdiContainer, тому можна встановити MdiParent
+            // Тепер це MdiContainer, тому можна встановити MdiParent
             form.MdiParent = this;
             form.Show();
         }
