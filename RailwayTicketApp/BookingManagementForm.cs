@@ -10,7 +10,7 @@ namespace RailwayTicketApp.Forms
     public partial class BookingManagementForm : Form
     {
         private RailwayDbContext dbContext;
-        private DataGridView dataGridView; // ✅ Поле класу
+        private DataGridView dataGridView; // Поле класу
 
         public BookingManagementForm()
         {
