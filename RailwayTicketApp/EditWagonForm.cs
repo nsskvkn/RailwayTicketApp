@@ -7,7 +7,7 @@ using RailwayTicketApp.Models;
 
 namespace RailwayTicketApp.Forms
 {
-    public partial class EditWagonForm : Form  // ✅ Успадковується від Form
+    public partial class EditWagonForm : Form  // Успадковується від Form
     {
         private Wagon wagon;
         private RailwayDbContext dbContext;
