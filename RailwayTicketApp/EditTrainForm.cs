@@ -24,7 +24,7 @@ namespace RailwayTicketApp.Forms
 
         private void InitializeComponent()
         {
-            this.Size = new Size(460, 500); // ✅ Збільшено висоту
+            this.Size = new Size(460, 500); // Збільшено висоту
             this.Text = train == null ? "Додати потяг" : "Редагувати потяг";
             this.StartPosition = FormStartPosition.CenterParent;
             this.BackColor = Color.FromArgb(245, 245, 245);
@@ -59,7 +59,7 @@ namespace RailwayTicketApp.Forms
             };
 
             int labelWidth = 90;
-            int inputWidth = 280; // ✅ Зменшено ширину полів
+            int inputWidth = 280; // Зменшено ширину полів
             int rowHeight = 45;
             int topMargin = 15;
 
@@ -91,7 +91,7 @@ namespace RailwayTicketApp.Forms
                     {
                         Name = $"dtp{i}",
                         Location = new Point(120, topMargin + i * rowHeight),
-                        Size = new Size(inputWidth - 30, 20), // ✅ Ширина менша
+                        Size = new Size(inputWidth - 30, 20), // Ширина менша
                         Format = DateTimePickerFormat.Custom,
                         CustomFormat = "dd.MM.yyyy HH:mm"
                     };
