@@ -10,7 +10,7 @@ namespace RailwayTicketApp.Forms
     public partial class TrainManagementForm : Form
     {
         private RailwayDbContext dbContext;
-        private DataGridView dataGridView; // ✅ Оголошено як поле класу
+        private DataGridView dataGridView; // Оголошено як поле класу
 
         public TrainManagementForm()
         {
@@ -37,7 +37,7 @@ namespace RailwayTicketApp.Forms
             this.Controls.Add(panelMain);
 
             // DataGridView
-            dataGridView = new DataGridView // ✅ Тепер поле класу
+            dataGridView = new DataGridView // Тепер поле класу
             {
                 Name = "dataGridViewTrains",
                 Location = new Point(10, 10),
@@ -114,7 +114,7 @@ namespace RailwayTicketApp.Forms
 
         private void LoadTrains()
         {
-            dataGridView.DataSource = dbContext.Trains.ToList(); // ✅ Використовуємо поле класу
+            dataGridView.DataSource = dbContext.Trains.ToList(); // Використовуємо поле класу
         }
 
         private void AddTrain()
