@@ -31,7 +31,7 @@ namespace RailwayTicketApp
             this.Text = "Залізнична система";
             this.StartPosition = FormStartPosition.CenterScreen;
 
-            // ✅ Встановлюємо, що ця форма є контейнером для Mdi
+            // Встановлюємо, що ця форма є контейнером для Mdi
             this.IsMdiContainer = true;
         }
 
