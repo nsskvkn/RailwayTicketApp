@@ -6,7 +6,7 @@ using RailwayTicketApp.Models;
 
 namespace RailwayTicketApp.Forms
 {
-    public partial class SearchForm : Form  // ✅ Успадковується від Form
+    public partial class SearchForm : Form  // Успадковується від Form
     {
         private RailwayDbContext dbContext;
 
